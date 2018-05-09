@@ -601,7 +601,8 @@ hr {
     flex: 0 0 30%; }
   .event--cross-culture {
     background-image: url("../events/img/cross_cultures.png");
-    flex: 1; }
+    flex: 1;
+    background-position: center center !important; }
   .event__title {
     background: rgba(0, 0, 0, 0.4);
     color: white;
