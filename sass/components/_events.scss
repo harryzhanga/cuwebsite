@@ -1,0 +1,119 @@
+.events{
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: $color-white;
+
+    &__title{
+        padding: 1rem;
+        margin: 8rem auto 2rem auto;
+    }
+
+    &__subtext{
+        padding: 1rem 24rem 5rem 24rem;
+        @include respond(phone){
+            padding: 3rem 4rem;
+        }
+    }
+
+    &__row{
+        height: 35rem;
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 4rem;
+        @include respond(phone){
+            height: auto;
+            margin-bottom: 0rem;
+        }
+    }
+
+
+}
+
+.event{
+    position: relative;
+    height: 100%;
+    background-position: center top;
+    background-size: cover;
+    margin: 2rem;
+    box-shadow: 4px 7px 16px -1px rgba(209,209,209,1);
+
+    @include respond(phone){
+        flex: 0 0 100% !important;
+        height: 40rem;
+        margin: 0rem;
+    }
+    &--tnt{
+        background-image: url('../events/img/tnt.jpg');
+        flex: 0 0 40%;
+    }
+    &--bible-study{
+        background-image: url('../events/img/bible_study.jpg');
+        flex: 0 0 30%;
+    }
+    &--gear-up{
+        background-image: url('../events/img/gear-up.jpg');
+        flex: 0 0 20%;
+    }
+    &--camps{
+        background-image: url('../events/img/group_shot_cropped.jpg');
+        flex: 1;
+    }
+    &--pbt{
+        background-image: url('../events/img/pbt.png');
+        flex: 1;
+    }
+    &--forum{
+        background-image: url('../events/img/forum.png');
+        flex: 0 0 20%;
+    }
+    &--trivia-night{
+        background-image: url('../events/img/Trivia Night.png');
+        flex: 0 0 25%;
+    }
+    &--summit{
+        background-image: url('../events/img/summit-2018.jpg');
+        flex: 0 0 30%;
+    }
+    &--cross-culture{
+        background-image: url('../events/img/cross_cultures.png');
+        flex: 1;
+    }
+
+
+
+    &__title{
+        background: rgba(0,0,0,0.4);
+        color: white;
+        font-size: 3rem;
+        text-transform: uppercase;
+        font-weight: 1000;
+        padding: 2.5rem;
+        @include respond(tab-land){
+            font-size: 2rem;
+        }
+        @include respond(phone){
+            font-size: 1.5rem;
+        }
+    }
+
+    &__subtitle{
+        font-size: 2rem;
+        text-transform: lowercase;
+    }
+
+    &__btn{
+        box-shadow: 10px 6px 19px -4px rgba(0,0,0,0.75);
+        position: absolute;
+        bottom: 2rem;
+        right: 2rem;
+        background: white;
+        border-radius: 8px;
+        padding: 0.8rem 1.5rem;
+        font-size: 1.5rem;
+        cursor:pointer;
+    }
+}

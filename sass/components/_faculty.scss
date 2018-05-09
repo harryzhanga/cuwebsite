@@ -1,0 +1,95 @@
+.faculty-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    padding: 3rem auto;
+    padding: 5rem 0 5rem 0;
+
+    &__title{
+        margin: 4rem 0 1rem 0;
+        padding-bottom: 1rem;
+    }
+    &__subtext{
+        padding: 0 30rem;
+        width: 100%;
+        @include respond(tab-land){
+            padding: 0 8rem;
+        }
+    }
+}
+
+.faculty-leaders{
+    display: flex;
+    box-shadow: 0 0.9375rem 3.75rem #9b9a9a;
+    margin: 4rem 10rem;
+    width: 90%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    @include respond(tab-land){
+        margin: 4rem;
+    }
+}
+
+.faculty-leader{
+    padding: 2rem;
+    display: flex;
+
+    border: 1px solid #dedcdc;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 0 30%;
+    display: block;
+    @include respond(tab-land){
+        flex: 1 0 35%;
+    }
+    @include respond(phone){
+        flex: 0 0 100%;
+    }
+    &__picture{
+        background-position: center center;
+        background-size: cover;
+        width: 100%;
+        padding-top: 100%;
+        border-radius: 50%;
+    }
+
+    &__faculty{
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: left;
+        width: 100%;
+        align-self: left;
+        background: linear-gradient(117deg, #c1f1ff 0%, #2df4ff 50%, #ff000000 50%);
+        margin: 4rem 1rem 1rem 1rem;
+    }
+
+    &__names{
+        font-size: 1.5rem;
+        font-weight: 100;
+        padding: 0 0 0 1rem;
+        align-self: left;
+        text-align: center;
+    }
+
+    &--arts{
+        background-image: url('../connect/profile_pics_2017/Tom_Ricketts_Zoe_Donnan (Arts).jpg')
+    }
+    &--biomedicine{
+        background-image: url('../connect/profile_pics_2017/Emma_Fletcher_Sam_Chui (Biomedicine).jpg')
+    }
+    &--commerce{
+        background-image: url('../connect/profile_pics_2017/Amanda_Zhou_Tom_Black (Commerce).jpg')
+    }
+    &--design{
+        background-image: url('../connect/profile_pics_2017/Stuart_Yeap_Robert_Doherty (Design).jpg')
+    }
+    &--science{
+        background-image: url('../connect/profile_pics_2017/Isaac_Johnson_Elsa_Gurban (Science).jpg')
+    }
+    &--music{
+        background-image: url('../connect/profile_pics_2017/Beth_Potter_Rebecca_Fullerton(Music).jpg')
+    }
+}

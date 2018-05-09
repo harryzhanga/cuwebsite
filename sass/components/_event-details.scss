@@ -1,0 +1,32 @@
+.event-details{
+    display: flex;
+    background: $color-white;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10rem;
+    @include respond(phone){
+        padding: 3rem;
+    }
+    &__title{
+        padding: 1rem;
+        margin: 2rem auto;
+    }
+    &__subtext{
+        padding: 1rem;
+    }
+
+    &__content{
+        font-size: 1.5rem;
+        font-weight: 100;
+        padding: 2rem;
+    }
+}
+
+.event-detail{
+    flex: 1 0 30%;
+    @include respond(phone){
+        flex: 1 0 100%;
+    }
+    display:flex;
+    flex-direction: column;
+}

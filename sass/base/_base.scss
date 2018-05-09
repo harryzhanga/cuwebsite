@@ -1,0 +1,41 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+
+
+html{
+    font-size: 62.5%;
+    @include respond(tab-land){font-size: 56.25%;}
+    @include respond(tab-port){font-size: 50%;}
+    @include respond(phone){font-size: 50%;}
+    @include respond(big-desktop){font-size: 75%;}
+}
+
+dl, ol, ul{
+    margin-bottom: 0rem !important;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    background: $color-blue-dark-2;
+}
+
+
+
+hr {
+	color: #075991;
+	border-color: #075991;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+    margin: 0 !important;
+}
+
+.main{
+    position: relative;
+}

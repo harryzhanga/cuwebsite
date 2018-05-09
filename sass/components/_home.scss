@@ -1,0 +1,65 @@
+.main-about{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: wrap;
+
+    &__content{
+        width: 50%;
+        background: white;
+        padding: 4rem;
+        @include respond(phone){
+            width: 100%;
+        }
+    }
+
+    &__title{
+        text-transform: uppercase;
+        font-size: 3rem;
+        font-weight: 100;
+        text-align: center;
+        padding: 1rem;
+        border-bottom: 1px solid black;
+        margin-bottom: 2rem;
+    }
+
+    &__text{
+        font-size: 1.7rem;
+        font-weight: 500;
+        text-align: center;
+        line-height: 1.5;
+        padding: 0 3rem;
+    }
+
+    &__gallery{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        flex:1;
+
+    }
+
+    &__img{
+        height: 30rem;
+        width: 50%;
+        background: blue;
+        background-size: cover;
+        background-position: center center;
+        @include respond(phone){
+            width: 50vw;
+            flex: 1 auto;
+        }
+        &--1{
+            background-image: url('../images/fun-image.jpg');
+        }
+        &--2{
+            background-image: url('../images/people.jpg');
+        }
+        &--3{
+            background-image: url('../images/g1.jpg');
+        }
+        &--4{
+            background-image: url('../images/cu.jpg');
+        }
+    }
+}

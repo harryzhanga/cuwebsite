@@ -1,0 +1,56 @@
+.header{
+    height: 25vh;
+    width: 100vw;
+    max-width: 100%;
+    padding: 2rem 4rem;
+    @include respond(phone){
+        height: auto;
+    }
+    &-links{
+        height: 100%;
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    & a{
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    &-logo{
+        flex: 0 0 40%;
+        height: 100%;
+        @include respond(phone){
+            flex: 0 0 100%;
+            margin-bottom: 3rem;
+            height: 8rem;
+        }
+    }
+
+    &-image-logo{
+        background-image: url('../images/logo_transparent.png');
+        background-size: contain;
+        background-position: center center;
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+
+    &-link{
+        flex: 1;
+        color: $color-white;
+        font-weight: bold;
+        @include respond(phone){
+            display: none;
+        }
+    }
+
+    &-text{
+        font-size: 2rem;
+    }
+}

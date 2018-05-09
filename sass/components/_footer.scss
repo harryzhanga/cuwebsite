@@ -1,0 +1,41 @@
+.footer{
+    border-top: 2px solid #eaeaea;
+    width: 100vw;
+    max-width: 100%;
+    color: white;
+    &__list{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        margin-bottom: 0;
+    }
+    &__item{
+    }
+
+    &__note{
+        font-size: 1rem;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        padding: 1rem;
+    }
+
+    &__cta{
+        font-size: 3rem;
+        text-align: center;
+        padding: 3rem;
+        padding-bottom: 1rem;
+    }
+
+    &__icons{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        & a{
+            color: $color-white;
+            margin: 1rem 2rem;
+        }
+        padding: 1rem;
+    }
+}

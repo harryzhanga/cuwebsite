@@ -1,0 +1,167 @@
+.sidebar-btn{
+  z-index: 3;
+  position: fixed;
+  top: 1rem;
+  right: 5rem;
+  background: white;
+  height: 7rem;
+  width: 7rem;
+  padding: 1rem;
+  border-radius: 50%;
+  box-shadow: 3px 3px 30px 5px grey;
+  cursor: pointer;
+  transition: all 1s cubic-bezier(.34,-0.49,.3,1.64),
+    transform .5s cubic-bezier(.34,-0.49,.3,1.64),
+    background .3s cubic-bezier(.34,-0.49,.3,1.64);
+  &__bars{
+      background: black;
+      height: 0.2rem;
+      width: 3rem;
+      position: absolute;
+      display: inline-block;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    &::before, &::after{
+      transition: all .4s cubic-bezier(.34,-0.49,.3,1.64);
+      content: "";
+      position: absolute;
+      display: inline-block;
+      height: 0.2rem;
+      width: 3rem;
+      background: black;
+    }
+    &::before{
+      top: -0.7rem;
+    }
+    &::after{
+      top: 0.7rem;
+    }
+  }
+  &:hover{
+    transform: scale(1.03);
+    &>*::after{
+      top: -0.8rem;
+    }
+    &>*::before{
+      top: 0.8rem;
+    }
+  }
+}
+
+.sidebar{
+    z-index: 2;
+  background: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  min-height: 100%;
+  overflow: hidden;
+  transition: all 1s;
+  opacity: 0;
+  display: none;
+  &__list{
+    transform: translateX(100%) rotateY(30deg);
+    list-style: none;
+    transition: all .4s, opacity 2s;
+    opacity: 0;
+  }
+  &__item{
+    display: flex;
+    position: relative;
+    &:hover{
+      & a{
+        transform: translateX(1rem);
+      }
+
+      &::after{
+        width: 100%;
+        height: 100%;
+      }
+    }
+    &::after{
+      transition: height 0.3s, width 0.5s ease 0.2s;
+      content: "";
+      z-index: -1;
+      background: $color-blue-light-2;
+      height: 0%;
+      width: 4px;
+      display: block;
+      position: absolute;
+    }
+  }
+  &__item-text:link{
+    width: 100%;
+    text-decoration: none;
+    font-size: 3rem;
+    padding: 0.5rem 2rem;
+    text-transform: uppercase;
+    color: black;
+    display: block;
+    transition: all .5s cubic-bezier(.34,-0.49,.3,1.64);
+    & .white-text{
+      color:white;
+      padding-left: 1rem;
+      font-size: 1rem;
+      display: none;
+    }
+  }
+
+  &__title{
+    letter-spacing: 12px;
+    padding: 1.6rem 0;
+    padding-right: 6rem;
+    background: #6bb4ff;
+    font-weight: 1000;
+    & .sidebar__item-text{
+      transition: all .5s;
+
+    }
+    &:hover .sidebar__item-text{
+      color: white;
+    }
+  }
+}
+
+.sidebar-check{
+  display: none;
+}
+
+.sidebar-check:checked ~ .sidebar{
+  border-left: 2px solid #6bb4ff;
+  opacity: 1;
+  display: block;
+  & .sidebar__list{
+    transform: translateX(0) rotateY(0);
+    opacity: 1;
+  }
+}
+
+.sidebar-check:checked + .sidebar-btn{
+  box-shadow: none;
+  background: transparent;
+  color: grey;
+  transform: translateX(4rem);
+  &:hover .sidebar-btn__bars{
+    &::before{
+      top: -0.5rem;
+      transform: translateY(0.9rem) rotate(60deg);
+    }
+    &::after{
+      top: 0.5rem;
+      transform: translateY(-0.1rem) rotate(-60deg);
+    }
+  }
+  & .sidebar-btn__bars{
+    background: transparent;
+    &::before, &::after{
+      background: rgba(0,0,0,0.3);
+    }
+    &::before{
+      transform: translateY(0.9rem) rotate(45deg);
+    }
+    &::after{
+      transform: translateY(-0.1rem) rotate(-45deg);
+    }
+  }
+}

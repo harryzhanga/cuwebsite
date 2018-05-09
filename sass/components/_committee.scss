@@ -1,0 +1,127 @@
+.committee{
+    background: $color-white;
+    width: 100vw;
+    max-width: 100%;
+    &__title{
+        border-bottom: 2px solid #ffd26f;
+        text-transform: uppercase;
+        margin: 9rem auto 1rem auto;
+        font-weight: 100;
+        font-size: 2rem;
+        text-align: center;
+        letter-spacing: 3px;
+        padding-bottom: 1rem;
+
+    }
+    &__subtext{
+        font-size: 1.5rem;
+        padding: 0 30rem;
+        text-align: center;
+        font-weight: 500;
+        letter-spacing: 1px;
+        @include respond(tab-land){
+            padding: 0 8rem;
+        }
+    }
+}
+
+.committee-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel-item{
+    height: 100%;
+    width: 100%;
+}
+
+.committee-carousel{
+    margin: 4rem auto;
+    width: 100%;
+    &__inner{
+
+    }
+    &__button{
+      background-color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      &--left{
+        left: 2rem;
+      }
+
+      &--right{
+        right: 2rem;
+      }
+    }
+
+    &__item{
+
+    }
+
+    &__img{
+        float:left;
+        width: 50%;
+        height: 50rem;
+        background-size: cover;
+        background-position: center center;
+        @include respond(tab-land){
+            width: 100%;
+        }
+        &--president{
+            background-image: url('../connect/profile_pics_2017/Isabelle_lee (President).jpg');
+        }
+        &--treasurer{
+            background-image: url('../connect/profile_pics_2017/Alan_Wang (Treasurer).jpg');
+        }
+        &--secretary{
+            background-image: url('../connect/profile_pics_2017/Laura Bligh (Secretary)2.jpg');
+        }
+        &--vice-president{
+            background-image: url('../connect/profile_pics_2017/Joseph_Daffy (Vice President).jpg');
+        }
+        &--vice-president-2{
+            background-image: url('../connect/profile_pics_2017/Peter_Collins (Vice President).jpg');
+        }
+        &--missions{
+            background-image: url('../connect/profile_pics_2017/Peter_Morley (GM - Missions).jpg');
+        }
+        &--media{
+            background-image: url('../connect/profile_pics_2017/Yasmin_Seeley(GM- Media_Communications).JPG');
+        }
+    }
+
+    &__content{
+        display: inline-block;
+        background: $color-blue-light;
+        padding: 4rem;
+        width: 50%;
+        float: right;
+        height: 50rem;
+        display: flex;
+        flex-direction: column;
+        @include respond(tab-land){
+            width: 100%
+        }
+    }
+
+    &__name{
+        font-size: 3rem;
+        font-weight: 1000;
+    }
+
+    &__title{
+        font-size: 2.5rem;
+        font-weight: 100;
+    }
+
+    &__text{
+        font-size: 1.5rem;
+        font-weight: 100;
+        padding: 2rem 4rem 2rem 0;
+    }
+}

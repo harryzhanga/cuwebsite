@@ -1,0 +1,64 @@
+.what-we-do{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #fff;
+    &__container{
+        display: flex;
+        width: 100%;
+        padding: 3rem;
+        margin-bottom: 6rem;
+        flex-wrap: wrap;
+    }
+
+    &__subtext{
+        margin-bottom: 4rem;
+        padding: 0 24rem;
+        @include respond(phone){
+            padding: 0 8rem;
+        }
+    }
+    &__content{
+        flex: 1;
+        @include respond(phone){
+            flex: 1 0 100%;
+        }
+    }
+    &__title{
+        margin-top: 8rem;
+        text-align: center;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+    &__text{
+        text-align: justify;
+        font-size: 1.5rem;
+        font-weight: 100;
+        padding: 2rem;
+    }
+
+    &__constitution{
+        margin-bottom: 4rem;
+        padding: 0 3rem;
+    }
+
+    &__subtitle{
+        font-size: 3rem;
+        text-align: center;
+        padding: 1rem;
+    }
+    &__arrow{
+        align-self: center;
+        height: 3rem;
+        flex: 0 0 10%;
+        background-image: url('../about/img/arrow.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        @include respond(phone){
+            display: none;
+        }
+    }
+}
