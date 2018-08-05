@@ -6,20 +6,6 @@
 
 <?php startblock('page_content') ?>
 
-<!-- WHEN YOU DON"T UNDERSTAND WHAT THE GUY BEFORE YOU WROTE SO YOU JUST KEEP IT-->
-<!-- JUST CU THINGS -->
-
-<!-- LOLS -->
-<!-- <div id="fb-root"></div>
-<script>(function(d, s, id) {
-	  var js, fjs = d.getElementsByTagName(s)[0];
-	  if (d.getElementById(id)) return;
-	  js = d.createElement(s); js.id = id;
-	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
-	  fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));
-</script> -->
-
 <section class="events">
     <h1 class = "section-title events__title">
         CU for this semester
@@ -29,6 +15,18 @@
         We would love to see you there!
     </p>
     <div class="events__row">
+        <div class="event event--ball">
+            <div class="event__title">
+                MUCU Ball
+                <span class = "event__subtitle">
+                    12 September
+                </span>
+            </div>
+            <a class="event__btn" href="https://www.facebook.com/events/258206828093724/">
+                Learn More
+            </a>
+        </div>
+
         <div class="event event--summit">
             <div class="event__title">
                 Summit 2018
@@ -37,14 +35,7 @@
                 Learn More
             </a>
         </div>
-        <div class="event event--trivia-night">
-            <div class="event__title">
-                Trivia Night
-                <span class = "event__subtitle">
-                    Wed Week 10
-                </span>
-            </div>
-        </div>
+
         <div class="event event--cross-culture">
             <div class="event__title">
                 Cross Cultures
