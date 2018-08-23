@@ -20,3 +20,10 @@ When you run that server, you can go to a browser and view the website
 using the URL
 
 localhost/cuwebsite
+
+
+You can log into my godaddy server through Putty using the username : harryzhang
+The password is 1P....
+
+
+Be careful when you update that the links to the home and other sites still work

@@ -431,18 +431,6 @@ hr {
     padding: 0 0 0 1rem;
     align-self: left;
     text-align: center; }
-  .faculty-leader--arts {
-    background-image: url("../connect/profile_pics_2017/Tom_Ricketts_Zoe_Donnan (Arts).jpg"); }
-  .faculty-leader--biomedicine {
-    background-image: url("../connect/profile_pics_2017/Emma_Fletcher_Sam_Chui (Biomedicine).jpg"); }
-  .faculty-leader--commerce {
-    background-image: url("../connect/profile_pics_2017/Amanda_Zhou_Tom_Black (Commerce).jpg"); }
-  .faculty-leader--design {
-    background-image: url("../connect/profile_pics_2017/Stuart_Yeap_Robert_Doherty (Design).jpg"); }
-  .faculty-leader--science {
-    background-image: url("../connect/profile_pics_2017/Isaac_Johnson_Elsa_Gurban (Science).jpg"); }
-  .faculty-leader--music {
-    background-image: url("../connect/profile_pics_2017/Beth_Potter_Rebecca_Fullerton(Music).jpg"); }
 
 .committee {
   background: #fff;
@@ -500,20 +488,6 @@ hr {
     @media only screen and (max-width: 75em) {
       .committee-carousel__img {
         width: 100%; } }
-    .committee-carousel__img--president {
-      background-image: url("../connect/profile_pics_2017/Isabelle_lee (President).jpg"); }
-    .committee-carousel__img--treasurer {
-      background-image: url("../connect/profile_pics_2017/Alan_Wang (Treasurer).jpg"); }
-    .committee-carousel__img--secretary {
-      background-image: url("../connect/profile_pics_2017/Laura Bligh (Secretary)2.jpg"); }
-    .committee-carousel__img--vice-president {
-      background-image: url("../connect/profile_pics_2017/Joseph_Daffy (Vice President).jpg"); }
-    .committee-carousel__img--vice-president-2 {
-      background-image: url("../connect/profile_pics_2017/Peter_Collins (Vice President).jpg"); }
-    .committee-carousel__img--missions {
-      background-image: url("../connect/profile_pics_2017/Peter_Morley (GM - Missions).jpg"); }
-    .committee-carousel__img--media {
-      background-image: url("../connect/profile_pics_2017/Yasmin_Seeley(GM- Media_Communications).JPG"); }
   .committee-carousel__content {
     display: inline-block;
     background: #adc8e5;

@@ -114,12 +114,12 @@
         <p>
     </div>
     <div class="event-details--tnt event-detail"  id = "tnt">
-        <h1 class="event-details__title section-title">TNTs</h1>
+        <h1 class="event-details__title section-title">SPTs</h1>
         <h1 class="event-details__subtext section-subtext">
             Forge an intimate relationship through prayer
         </h1>
         <p class = "event-details__content">
-            Triplets and Training, or TNTs, are intimate prayer groups of three to five people that aim to support one another and the wider community through prayer and fellowship. TNTs gives the opportunity to actively pray for each other and other students at the university, as well as equip each other to spread the gospel with their peers.
+            SPTs, are intimate prayer groups of three to five people that aim to support one another and the wider community through prayer and fellowship. SPTs gives the opportunity to actively pray for each other and other students at the university, as well as equip each other to spread the gospel with their peers.
         <p>
     </div>
     <div class="event-details--camps event-detail"  id = "camps">
