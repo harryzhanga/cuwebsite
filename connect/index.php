@@ -29,7 +29,8 @@
                         President
                       </div>
                       <div class = "committee-carousel__text">
-							<!-- Isabelle is a follower of Jesus, studying anatomy and neuroscience in the faculty of Biomedicine. She is passionate about encouraging and growing together with others in their faith in, knowledge of, and love for God. She is humbled and excited to be doing this in serving as the president of Christian Union, wherein she seeks to direct the club towards fulfilling its vision. Whenever possible, she enjoys spending quality time with people, playing word games, and dissecting her food. -->
+                          Joseph is a final year Commerce student, and is humbled and privileged to be in the role of President of CU. Joseph likes to play trumpet and chess in his spare time, and loves to encourage people with their faith. Whether you go to every CU event or none, and whether you are a Christian or not, Joseph would love to meet you and get to know you – so please come and say hi to him!
+
                       </div>
                   </div>
               </div>
@@ -43,7 +44,8 @@
                         Vice President
                       </div>
                       <div class = "committee-carousel__text">
-              		     <!-- Joseph is a commerce student majoring in actuarial studies, and is excited to be serving God through being one of two vice presidents for CU. His role as VP is very diverse, but primarily focuses on unity among the wider CU community and aligning the club’s practice with its vision. Joseph enjoys playing trumpet and chess in his spare time, and loves to meet new people. He is keen to serve the CU members in this way, and will spend a lot of his time seeking ways by which the club can best meet its vision of sending gospel workers out into the world. -->
+                          Sophie is an Arts student, majoring in Philosophy and Literature. Sophie is excited to be serving Jesus on the Melbourne University campus through her role as one of the two Vice Presidents. Her role as Vice President involves leading the club alongside the President and the rest of the executive committee. More specifically she will focus her energy on helping Christian Union to effectively fulfil its aims of reaching out, building up and sending out. When she's not studying or doing Christian Union activities, Sophie enjoys teaching classical ballet. She also loves spending time drinking coffee and going for walks with friends in her spare time.
+
                       </div>
                   </div>
               </div>
@@ -57,7 +59,8 @@
                         Vice President
                       </div>
                       <div class = "committee-carousel__text">
-              			<!-- Peter is studying a Bachelor of science and plans to major in mathematics. His role as Vice-President involves leading the club alongside the president and rest of the executive committee, but more specifically with a focus on helping Christian Union effectively fulfil its aims of reaching out, building up and sending out.  Peter loves music and he plays guitar and writes songs whenever he gets the chance. He also enjoys running, orienteering and playing hockey. -->
+                          Brandon is a follower of Jesus, alongside being an Arts student studying psychology and philosophy. He is excited to be serving God as Vice President at CU. His role as VP involves working with the president and the executive committee to ensure that CU can continue to fulfil its aim: that God’s word may continue to be heard and lived out on campus and beyond. Brandon loves playing violin and having long “what if” conversations. Brandon also loves to see people grow and deepen their relationship with God and with each other!
+
                       </div>
                   </div>
               </div>
@@ -71,7 +74,8 @@
                         Secretary
                       </div>
                       <div class = "committee-carousel__text">
-              			<!-- Laura is an Arts student majoring in History and minoring in Linguistics. She enjoys reading, geeking out over reading and buying books. She also likes chocolate and making friends (not necessarily in that order). Laura is looking forward to serving as secretary in the wonderful community that is Christian Union, and counts herself blessed to be a part of it. Her role will involve supporting and facilitating the running of Christian Union events and creating an environment where new ideas can be practically carried out. -->
+                          Ailyn Irvita Ravinther is a 2nd year Biomedicine student from Malaysia. She spent the last 5 years of her life in a beautiful lake town, Kampar. Living away from the craziness of the city, brought her heart closer to God and she had the blessing of serving as a leader in the Christian Fellowship of her school.  At present, she’s still figuring out what to do with her future but she’s certain that serving God is in the picture. Outside university work, she enjoys reading, (binge) watching tv shows, watching instructional cooking videos (not necessarily actually cooking) and sleeping in. Ailyn is excited to grow and serve as the Secretary—she’s glad to be a part of making things happen in CU.
+
                       </div>
                   </div>
               </div>
@@ -85,7 +89,8 @@
                         Treasurer
                       </div>
                       <div class = "committee-carousel__text">
-              			<!-- Alan is a servant of the risen Lord Jesus Christ at Melbourne University. In this upcoming term of serving as the Treasurer, Alan will apply his knowledge from his Commerce degree to help manage the finances of the Christian Union. He enjoys studying Human Resources and Psychology, which is a result of his passion for people. Alan loves to help other people flourish, and believes that a person will be at their best once they come to understand who Jesus is from reading the Bible. As a result, Alan is always keen to chat to anyone about Jesus! In his spare time, he enjoys playing basketball and watching anime. -->
+  Zi-En is a second-year science student planning to major in chemical engineering. He is eager to see how God will use the Christian Union to reach out, build up and send out the people of Melbourne University. Zi-En is serving as the treasurer from 2018-2019 and is excited to be able to serve God and the Christian Union alongside the rest of the committee. He hopes that the work of the Christian Union would be pleasing to God and that we would be a demonstration to the campus of the love of Christ. In his spare time, he enjoys playing computer games, listening to music, cooking and talking with friends.
+
                       </div>
                   </div>
               </div>
@@ -99,7 +104,7 @@
                         Media Communications
                       </div>
                       <div class = "committee-carousel__text">
-              		<!-- Yasmin is a follower of Jesus and a science student intending to major in Bioengineering Systems at the University of Melbourne. She is a keen netball player and is currently enjoying life on campus. Her role as General Member - Media/Communications involves leading a team dedicated to managing Christian Union wide media, as well as overseeing communication with and within the club. Yasmin is excited to commence her role and see God's will and plans for the club    unfold throughout the year. -->
+              		Jakob is a third year Arts student majoring in History, originally from Hamilton in Western Victoria. He is excited to be serving both God and the Christian Union in his role as Media & Communications Representative, as well as with the rest of CU’s leadership. Jakob has been a Christian for his whole life, but loves the way that Christian Union has helped him take his faith seriously, and place him firmly in Christ, while also connecting him with so many other Christians to love, serve and glorify God together. In his spare time, Jakob enjoys playing video games, reading, and spending time with the people he love
                       </div>
                   </div>
               </div>
@@ -113,7 +118,7 @@
                         Missions
                       </div>
                       <div class = "committee-carousel__text">
-              			<!-- Peter is a science student who hopes to major in Computer and Software Systems. In his spare time he enjoys hiking, getting outdoors, tinkering with cars and spending quality time with others. Primarily, Peter wants to live out his faith on campus and wherever God may lead him in the future! As he takes on the position of General Member - Missions, Peter will be supporting Christian Union's Global Mission outreach specifically by facilitating the support of CU's missionary partners in spreading the good news of the Gospel across the globe! -->
+                          Hi I’m the Missions Representative on the Exec (general committee member). I’m excited about this role because I get super excited about Jesus name being proclaimed ALL over the world. I’m a second year arts student majoring in psychology and minoring in Islamic Studies. I love learning about people, and how Jesus can fulfil the needs of every individual no matter their cultural background. Some things I enjoy are sunny days, op-shopping, and hanging out with friends. I’m always keen for interesting chats so feel free to stalk my facebook and message me about anything, especially if you have any questions or ideas about missions.
                       </div>
                   </div>
               </div>

@@ -72,27 +72,27 @@
         @include respond(tab-land){
             width: 100%;
         }
-        // &--president{
-        //     background-image: url('../connect/profile_pics_2017/Isabelle_lee (President).jpg');
-        // }
-        // &--treasurer{
-        //     background-image: url('../connect/profile_pics_2017/Alan_Wang (Treasurer).jpg');
-        // }
-        // &--secretary{
-        //     background-image: url('../connect/profile_pics_2017/Laura Bligh (Secretary)2.jpg');
-        // }
-        // &--vice-president{
-        //     background-image: url('../connect/profile_pics_2017/Joseph_Daffy (Vice President).jpg');
-        // }
-        // &--vice-president-2{
-        //     background-image: url('../connect/profile_pics_2017/Peter_Collins (Vice President).jpg');
-        // }
-        // &--missions{
-        //     background-image: url('../connect/profile_pics_2017/Peter_Morley (GM - Missions).jpg');
-        // }
-        // &--media{
-        //     background-image: url('../connect/profile_pics_2017/Yasmin_Seeley(GM- Media_Communications).JPG');
-        // }
+        &--president{
+            background-image: url('../connect/profile_pics_2018/JOSEPH.jpg');
+        }
+        &--treasurer{
+            background-image: url('../connect/profile_pics_2018/ZI-EN.jpg');
+        }
+        &--secretary{
+            background-image: url('../connect/profile_pics_2018/AILYN.jpg');
+        }
+        &--vice-president{
+            background-image: url('../connect/profile_pics_2018/SOPHIE.jpg');
+        }
+        &--vice-president-2{
+            background-image: url('../connect/profile_pics_2018/BRANDON.jpg');
+        }
+        &--missions{
+            background-image: url('../connect/profile_pics_2018/ZOE.jpg');
+        }
+        &--media{
+            background-image: url('../connect/profile_pics_2018/JAKOB.JPG');
+        }
     }
 
     &__content{

@@ -22,7 +22,16 @@ using the URL
 localhost/cuwebsite
 
 
-You can log into my godaddy server through Putty using the username : harryzhang
+Uploading:
+git add *
+git commit -m "commit message"
+git push origin master
+
+You can log into my godaddy server through Putty using
+
+IP: 148.66.136.120
+Port: 22
+username : harryzhang
 The password is 1P....
 
 

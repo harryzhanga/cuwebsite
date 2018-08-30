@@ -488,6 +488,20 @@ hr {
     @media only screen and (max-width: 75em) {
       .committee-carousel__img {
         width: 100%; } }
+    .committee-carousel__img--president {
+      background-image: url("../connect/profile_pics_2018/JOSEPH.jpg"); }
+    .committee-carousel__img--treasurer {
+      background-image: url("../connect/profile_pics_2018/ZI-EN.jpg"); }
+    .committee-carousel__img--secretary {
+      background-image: url("../connect/profile_pics_2018/AILYN.jpg"); }
+    .committee-carousel__img--vice-president {
+      background-image: url("../connect/profile_pics_2018/SOPHIE.jpg"); }
+    .committee-carousel__img--vice-president-2 {
+      background-image: url("../connect/profile_pics_2018/BRANDON.jpg"); }
+    .committee-carousel__img--missions {
+      background-image: url("../connect/profile_pics_2018/ZOE.jpg"); }
+    .committee-carousel__img--media {
+      background-image: url("../connect/profile_pics_2018/JAKOB.JPG"); }
   .committee-carousel__content {
     display: inline-block;
     background: #adc8e5;
