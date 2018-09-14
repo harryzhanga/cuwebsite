@@ -14,8 +14,7 @@
             Supported by a dedicated committee
         </h1>
         <p class = "committee__subtext section-subtext">
-            CU's committee are dedicated to giving an engaging and holistic experience to university students.
-            Every event and aspect of CU is considered by these bright people.
+            Christian Union’s executive committee are dedicated to providing an inviting, engaging and positive experience to university students. Every event and aspect of CU is thoughtfully considered by this group of dedicated students and Christians.
         </p>
         <div class="committee-carousel carousel slide" data-ride="carousel" data-interval="false">
           <div class="carousel-inner committee-carousel__inner ">
@@ -134,12 +133,11 @@
 </section>
 <section class = "faculty-section">
     <h1 class = "faculty-section__title section-title">
-        Expanding accross every faculty
+        Expanding across every faculty
     </h1>
     <p class = "faculty-section__subtext section-subtext">
-            We have member in every one of Melbourne Uni's faculties.
-            For any queries, doubts or questions about what we do feel
-            completely welcome to bug them about it!
+        Joining the executive committee are general committee members from each faculty at Melbourne University. They are here to ensure that each faculty is a supportive and inviting community. They run many wonderful events and are fountains of knowledge about how to survive in your courses! For any queries, doubts or questions, feel very welcome to approach them!
+
     <p>
     <div class = "faculty-leaders">
         <div class = "faculty-leader">

@@ -11,7 +11,7 @@
         What do we do?
     </h1>
     <p class="what-we-do__subtext section-subtext">
-        CU's mission is to bring people together and to prepare them to serve not just in uni but everywhere.
+        CU’s mission is to spread the gospel to students on campus, to build up students to be mature in Christ and to be Christians built around the word of the God, and to equip students to be able to spread the gospel both during their time at University but also in every place that life takes them.
     </p>
     <div class="what-we-do__container">
         <div class="what-we-do__content">
@@ -19,9 +19,7 @@
                 Reach Out
             </div>
             <div class="what-we-do__text">
-                Christian Union is dedicated to reaching out, serving and loving every single person
-                on campus. We want to share the truth of Jesus, who died in our place, so that the
-                people of our university would come to trust him.
+                Christian Union is dedicated to reaching out, serving and loving every single person on campus. We want to share the truth of God, who loved us so much that he sent his only Son to die on the cross so that we may have a relationship with him and eternal life. Our desire is that people at Melbourne University would accept Jesus as their saviour and lead lives that glorify him.
             </div>
         </div>
         <div class="what-we-do__arrow"></div>
@@ -30,9 +28,7 @@
                 Build Up
             </div>
             <div class="what-we-do__text">
-                We encourage those who serve God, as Christ's ambassadors on campus, to demonstrate the
-                relevance of faith in every area of our lives and the world; equipping them with teaching from the Bible
-                and supporting them with prayer.
+                We encourage those who serve God, as Christ's ambassadors on campus, to demonstrate the relevance of faith in every area of our lives and the world. We equip our leaders through bible study training, SPT training and mentoring programs. We encourage and support our members through these formal trainings and prayer. 
             </div>
         </div>
         <div class="what-we-do__arrow"></div>

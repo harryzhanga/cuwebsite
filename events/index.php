@@ -8,11 +8,10 @@
 
 <section class="events">
     <h1 class = "section-title events__title">
-        CU for this semester
+        This semester at Christian Union.
     </h1>
     <p class = "section-subtext events__subtext">
-        We run multiple events every week. Big events like camps and uni-wide meetups occur a couple of times every semester.
-        We would love to see you there!
+        We run multiple events every week. We also have larger events such as camps a couple of times each year. We would love to see you there!
     </p>
     <div class="events__row">
         <div class="event event--ball">
@@ -101,43 +100,44 @@
             Listen to our sermons delivered right on campus
         </h1>
         <p class = "event-details__content">
-            PBT is a great opportunity to meet other students in Christian Union. The weekly talks also provides a friendly opportunity to invite friends to hear from God's word! Each week involves the exploration of a new Bible passage, Christian Union activities and events announcements, as well as the occasional free BBQ following the talk.
+            PBT is our weekly bible talk, it is wonderful way to hear and learn from God’s word as well as meeting other students in CU. Each week we are led through a bible passage by one of our Senior Staff, afterwards we hang out and have a chat over some food.
         <p>
     </div>
     <div class="event-details--bible-study event-detail"  id = "bible-study">
         <h1 class="event-details__title section-title">Bible Studies</h1>
         <h1 class="event-details__subtext section-subtext">
-            Get to know us while learning God's teachings
+            Foster friendships whilst learning about God’s teachings
         </h1>
         <p class = "event-details__content">
-            Smaller than PBT, bible studies foster friendships and encourage active discussion of weekly bible passages. Bible studies are formed within faculty groups and meet weekly at various times throughout the week. This gives everyone a lot of flexibility in choosing which bible study to join.
+            Smaller groups than PBT, bible studies foster friendships and encourage active discussion of weekly bible passages. Every Bible study is led by students or staff who are trained by the senior staff to guide their group. Each week we look at a bible passage learning about the context of the passage, the principles underlying the passage and how we might apply this passage to our own lives. Bible studies are formed within faculty groups. They meet weekly at various times throughout the week so there is plenty of flexibility to choosing which study time suits your personal schedule.
+
         <p>
     </div>
     <div class="event-details--tnt event-detail"  id = "tnt">
         <h1 class="event-details__title section-title">SPTs</h1>
         <h1 class="event-details__subtext section-subtext">
-            Forge an intimate relationship through prayer
+            Share, Pray & be Trained.
         </h1>
         <p class = "event-details__content">
-            SPTs, are intimate prayer groups of three to five people that aim to support one another and the wider community through prayer and fellowship. SPTs gives the opportunity to actively pray for each other and other students at the university, as well as equip each other to spread the gospel with their peers.
+            SPT’s are intimate prayer groups of three to five people that aim to support one another and the wider community through prayer and fellowship. SPT’s provide a opportunity for students to actively pray for each other and for other students at Melbourne University. SPT’s also function to equip and build up students to be able to share the gospel with their peers. The focus of SPT’s is to pray for the sharing of the gospel with non believers.
         <p>
     </div>
     <div class="event-details--camps event-detail"  id = "camps">
         <h1 class="event-details__title section-title">Camps</h1>
         <h1 class="event-details__subtext section-subtext">
-            Experience the scale of CU on one of our camps
+            Experience the community of CU at our camps.
         </h1>
         <p class = "event-details__content">
-            From Gear Up to Base Camp to Summit, Christian Union runs several camps throughout the year. Each camp explores an aspect of Christian faith with slightly different emphasis at different points in the year. Gear Up prepares students spiritually for the upcoming year while Base Camp is a time for faculty groups to grow together and establish God's word in their lives. During the winter break, Summit brings all of Melbourne Uni Christian Union together for a week of praising God, hearing from his word, and having fun with new friends! The final camp, national training event, or NTE, is held in Canberra at the end of the year and is designed to solidify the year that has passed, as well as prepare Christians from across the country to take on the future with confidence and power from God's word.
+            Christian Union runs several camps throughout the year. Each camp explores the Christian Faith all with differing focuses depending upon the camp. We start each year with Gear up. This camp prepares our current students, particularly our leaders, practically and spiritually for the year ahead. Base Camp is next, which is a our faculty specific camps. They are an opportunity for new and current students to bond as a faculty whilst growing their faith. During the winter break we have our CU wide camp, Summit, which brings all of Melbourne University Christian Union together for a week of praising God, hearing from his word and spending quality time together. At the end of the year we have our National Training Event (NTE). This is a nation wide conference held in Canberra and brings together Christians Unions from all over Australia. It is designed to help grow students in their knowledge of and ability to share the gospel. NTE prepares Christians from across the country to take on the future with confidence and power from God's word.
         <p>
     </div>
     <div class="event-details--camps event-detail"  id = "camps">
         <h1 class="event-details__title section-title">Cross Cultures</h1>
         <h1 class="event-details__subtext section-subtext">
-            For international students
+            A weekly event for international students.
         </h1>
         <p class = "event-details__content">
-            At Cross Cultures, we make friends and meet Jesus. We meet from 6-9.30pm on Thursdays at St Jude's Anglican Church, 2 Keppel Street, Carlton (just a short walk from Melbourne Uni). Every Thursday we have dinner, make friends, and read the Bible together to get to know Jesus. It doesn't matter if you have never read the Bible before or if you have been a Christian all your life, everyone is welcome!
+            At Cross Cultures we meet at 6pm on Thursdays to have dinner, make friends and read the bible together. No matter whether you have had lots of experience reading the bible or none at all, everyone is welcome. It is a wonderful time of meeting other students who are living away from home in a foreign country and to create friendships with them. We meet at St Jude's Anglican Church, 2 Keppel Street, Carlton (just a short walk from Melbourne Uni). 
         <p>
     </div>
 
