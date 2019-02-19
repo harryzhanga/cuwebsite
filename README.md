@@ -23,11 +23,11 @@ It uses SASS for CSS (check sass folder)
 To run the PHP server, I used XAMPP.
 
 ### Modifying SASS
-To modify the CSS
-
+To modify the CSS, run the command
 ```
 npm run start
 ```
+Then just modify your files in your favourite text editor, save, and then it should compile your SASS files into new CSS files.
 
 
 
@@ -40,10 +40,11 @@ localhost/cuwebsite
 ```
 
 ### Committing
+```
 git add *
 git commit -m "commit message"
 git push origin master
-
+```
 ### Putting into production
 You can log into my godaddy server through Putty using
 
