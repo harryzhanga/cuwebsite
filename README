@@ -4,7 +4,7 @@ This is a static website, there is a home page called index.php
 and we use the idea of templates so there is a head.php that is uniform
 accross all pages
 
-The file handling that logic of head, body files is ti.php
+The ti.php handles the logic which allows a common php file to be at the common accross each webpage.
 
 It uses SASS for CSS (check sass folder), you use
 
