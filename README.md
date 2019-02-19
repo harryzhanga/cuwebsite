@@ -18,26 +18,43 @@ We also use templating, the logic of templating is in the `ti.php` file
 
 It uses SASS for CSS (check sass folder)
 
+The Node Package Manager is used to compile the SASS into CSS.
+
+We use Bootstrap for the carousel on the connect page (and some Javascript)
 ## Developing
 ### Running the server
 To run the PHP server, I used XAMPP.
 
-### Modifying SASS
-To modify the CSS, run the command
+### SCSS Background
+Don't modify the CSS files, you can but I already implemented a nice structure using SASS. In essence, SASS allows you to write CSS in different files (which makes it super easy to organize) and then it compiles all of it into one CSS file in the end.
+
+We use SCSS which is a popular flavor or form of SASS. You can use your favourite text editor to modify anything in the `sass/` folder. 
+
+I learnt SASS and CSS from this course, it was well worth the money.
+https://www.udemy.com/advanced-css-and-sass/
+
+I followed the conventions from that course, including the way my folders and files are structured. In essence, `main.scss` takes in all the other SCSS files. 
+
+`/sass/abstract/_mixin.scss` is for mixins acrross all SCSS.
+`/sass/abstract/_variables.scss` contains the colors and other constant accross all SCSS
+`/sass/base/_base.scss` is extremely important. 
+`/sass/base/_typography.scss` is for different kinds of text
+`/sass/components` is the directory containing specific SCSS for each section or element in the website.
+
+You can find the compiled CSS in `/css` folder. Then in `/head.php` you can see `/css/style.css` is being imported.
+### Modifying SCSS
+Run
 ```
 npm run start
 ```
-Then just modify your files in your favourite text editor, save, and then it should compile your SASS files into new CSS files.
-
+Then just modify your files in your favourite text editor, save, and then it should compile your SASS files into new CSS files. 
 
 
 
 ### Rendering in the browser locally
-When you run the XAMPP server, you can go to a browser and view the website using the URL
+First download XAMPP. I forgot the setup, but I put all my files the in `D:\xampp\htdocs\cuwebsite`.
 
-```
-localhost/cuwebsite
-```
+I can then open up XAMPP and press a START button to start the server. Then I can go to my browser eg Chrome or Safari and use the URL `localhost/cuwebsite` to access it.
 
 ### Committing
 ```
