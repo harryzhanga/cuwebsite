@@ -2,16 +2,16 @@
 
 ## Overview
 
-Website URL `http://melbourne.cu.org.au/`
+Website URL `http://melbourne.cu.org.au/`\
 The writer of this README is Harry Zhang. Here is a list of who I know has managed this website.
 
-Jonathan Milford (-2015)
-Matthew Habibi (2015-2016)
-Harry Zhang (2016-)
+Jonathan Milford (-2015)\
+Matthew Habibi (2015-2016)\
+Harry Zhang (2016-)\
 
-This is a static website. This means it doesn't connect to any database and provides the same content always.
-The homepage contents is in `index.php`
-I implemented templating for this website. This means that there is a common header for each website (`head.php`).
+This is a static website. This means it doesn't connect to any database and provides the same content always.\
+The homepage contents is in `index.php`\
+I implemented templating for this website. This means that there is a common header for each website (`head.php`).\
 
 ## Technologies
 We use PHP to create the HTML. The website was PHP when it was handed to me. I could have changed it to just raw HTML but I wanted to have a common header so I kept it.
@@ -78,7 +78,7 @@ IP: 148.66.136.120
 Port: 22
 ```
 
-Then click 'open'
+Then click 'open'\
 A window will pop up asking for username and password
 ```
 username : harryzhang
@@ -87,7 +87,7 @@ The password is 1P....
 
 That's not the actual password obviously.
 
-Then naviate to `/public_html` and run `git pull`.
+Then naviate to `/public_html` and run `git pull`.\
 This should take all those changes you made and put them on the server. You're done! 
 ## Final Notes
 Be careful when you update that the links to the home and other sites still work
