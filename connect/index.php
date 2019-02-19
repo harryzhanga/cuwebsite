@@ -167,7 +167,7 @@
         </div>
         <div class = "faculty-leader">
             <div class = "faculty-leader__picture faculty-leader--music"></div>
-            <h2 class = "faculty-leader__faculty">Music</h2>
+            <h2 class = "faculty-leader__faculty">Southbank (Fine Arts & Music)</h2>
             <h3 class = "faculty-leader__names">Rebecca Fullerton</h2>
         </div>
 
