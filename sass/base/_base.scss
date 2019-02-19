@@ -1,3 +1,4 @@
+//make sure every element doesn't start with padding or margin.
 *,
 *::after,
 *::before {
@@ -6,8 +7,7 @@
     box-sizing: inherit;
 }
 
-
-
+// is used for making the website responsive. This defines the thresholds at which elements shift.
 html{
     font-size: 62.5%;
     @include respond(tab-land){font-size: 56.25%;}
@@ -16,17 +16,17 @@ html{
     @include respond(big-desktop){font-size: 75%;}
 }
 
+// not sure why I need this, make see where dl, ol or ul is being used.
 dl, ol, ul{
     margin-bottom: 0rem !important;
 }
 
+//having box-sizing: border-box is important. Read more about border-box.
 body {
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
     background: $color-blue-dark-2;
 }
-
-
 
 hr {
 	color: #075991;

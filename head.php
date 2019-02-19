@@ -102,9 +102,6 @@
                     <a href = "https://www.youtube.com/watch?v=7zA4fZxiB-Q">
                         <i class="fab fa-youtube-square fa-5x"></i>
                     </a>
-                    <!-- <a href = "#">
-                        <i class="fab fa-instagram fa-5x"></i>
-                    </a> -->
                 </li>
                 <li class = "footer__item footer__note">
                     <p>Developed by Harry Zhang 2018</p>
