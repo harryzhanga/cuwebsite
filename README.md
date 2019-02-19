@@ -28,8 +28,11 @@ I've been hosting the website on GoDaddy using my personal account which I'm hap
 
 
 ## Developing
-### Running the server
-To run the PHP server, I used XAMPP.
+
+### Rendering in the browser locally
+First download XAMPP. I forgot the setup, but I put all my files the in `D:\xampp\htdocs\cuwebsite`.
+
+I can then open up XAMPP and press a START button to start the server. Then I can go to my browser eg Chrome or Safari and use the URL `localhost/cuwebsite` to access it.
 
 ### SCSS Background
 Don't modify the CSS files, you can but I already implemented a nice structure using SASS. In essence, SASS allows you to write CSS in different files (which makes it super easy to organize) and then it compiles all of it into one CSS file in the end.
@@ -54,13 +57,6 @@ Run
 npm run start
 ```
 Then just modify your files in your favourite text editor, save, and then it should compile your SASS files into new CSS files. 
-
-
-
-### Rendering in the browser locally
-First download XAMPP. I forgot the setup, but I put all my files the in `D:\xampp\htdocs\cuwebsite`.
-
-I can then open up XAMPP and press a START button to start the server. Then I can go to my browser eg Chrome or Safari and use the URL `localhost/cuwebsite` to access it.
 
 ### Committing
 ```
