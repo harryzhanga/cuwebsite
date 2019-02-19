@@ -1,6 +1,8 @@
 # Christian Union (Melbourne Uni) Website
 
 ## Overview
+
+Website URL `http://melbourne.cu.org.au/`
 The writer of this README is Harry Zhang. Here is a list of who I know has managed this website.
 
 Jonathan Milford (-2015)
@@ -21,6 +23,10 @@ It uses SASS for CSS (check sass folder)
 The Node Package Manager is used to compile the SASS into CSS.
 
 We use Bootstrap for the carousel on the connect page (and some Javascript)
+
+I've been hosting the website on GoDaddy using my personal account which I'm happy to do. My customer ID there is 162677176
+
+
 ## Developing
 ### Running the server
 To run the PHP server, I used XAMPP.
@@ -62,14 +68,28 @@ git add *
 git commit -m "commit message"
 git push origin master
 ```
-### Putting into production
-You can log into my godaddy server through Putty using
 
+### Putting into production
+To pull those changes from Github to Godaddy, we use Putty. PuTTY allows you to 'log in' into your machine on GoDaddy so you can modify the server. 
+
+Use the following settings on PuTTY
 ```
 IP: 148.66.136.120
 Port: 22
+```
+
+Then click 'open'
+A window will pop up asking for username and password
+```
 username : harryzhang
 The password is 1P....
 ```
 
+That's not the actual password obviously.
+
+Then naviate to `/public_html` and run `git pull`.
+This should take all those changes you made and put them on the server. You're done! 
+## Final Notes
 Be careful when you update that the links to the home and other sites still work
+
+If you have any questions email me at harryzhanga@gmail.com
