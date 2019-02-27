@@ -14,26 +14,26 @@
         We run multiple events every week. We also have larger events such as camps a couple of times each year. We would love to see you there!
     </p>
     <div class="events__row">
-        <div class="event event--ball">
+        <div class="event event--cc-camp">
             <div class="event__title">
-                MUCU Ball
+                Cross Cultures
                 <span class = "event__subtitle">
-                    12 September
+                     Welcome Camp 2019
                 </span>
             </div>
-            <a class="event__btn" href="https://www.facebook.com/events/258206828093724/">
+            <a class="event__btn" href="https://l.facebook.com/l.php?u=https%3A%2F%2Fgoo.gl%2Fforms%2FbUPsLLJoVczsv92q2%3Ffbclid%3DIwAR3FiVbe3SSw3Va6NBBm-JTyBOoCan0IyNmDAkeWVInHUZubeo2s5QcN_ns&h=AT1cwq79B13HtbyPIxYOvvyp_ugfhpgyq3nj5KPYCimxAk2KNXv81wojPE0z2k9nbiVvWlX1gg8ywJNaDOFEF9TQ_uDltWY3mrIwHi1j9tgX0Uhc_xnaDanwA2-r3feo7ovQhvFKPZPw41eXI7k">
                 Learn More
             </a>
         </div>
 
-        <div class="event event--summit">
+        <!-- <div class="event event--summit">
             <div class="event__title">
                 Summit 2018
             </div>
             <a class="event__btn" href="https://www.facebook.com/events/228380964394611/">
                 Learn More
             </a>
-        </div>
+        </div> -->
 
         <div class="event event--cross-culture">
             <div class="event__title">
@@ -55,7 +55,10 @@
         </div>
         <div class="event event--pbt">
             <div class="event__title">
-                Public Bible Talks 1AM Every TUE/ WED
+                CU and CU Lite
+                <span class = "event__subtitle">
+                     5:30PM Monday and 1PM Tuesday
+                </span>
             </div>
             <a class="event__btn scroll"  data-id = "pbt">
                 Learn More
@@ -73,10 +76,7 @@
     <div class="events__row">
         <div class="event event--tnt">
             <div class="event__title">
-                SPT
-                <span class = "event__subtitle">
-                    (Share Pray Train)
-                </span>
+                Prayer Groups
             </div>
             <a class="event__btn scroll"  data-id="tnt">
                 Learn More
@@ -95,7 +95,7 @@
 
 <section class="event-details">
     <div class="event-details--pbt event-detail" id = "pbt">
-        <h1 class="event-details__title section-title">Public Bible Talks</h1>
+        <h1 class="event-details__title section-title">Bible Talks</h1>
         <h1 class="event-details__subtext section-subtext">
             Listen to our sermons delivered right on campus
         </h1>
@@ -114,12 +114,12 @@
         <p>
     </div>
     <div class="event-details--tnt event-detail"  id = "tnt">
-        <h1 class="event-details__title section-title">SPTs</h1>
+        <h1 class="event-details__title section-title">Prayer Groups</h1>
         <h1 class="event-details__subtext section-subtext">
             Share, Pray & be Trained.
         </h1>
         <p class = "event-details__content">
-            SPT’s are intimate prayer groups of three to five people that aim to support one another and the wider community through prayer and fellowship. SPT’s provide a opportunity for students to actively pray for each other and for other students at Melbourne University. SPT’s also function to equip and build up students to be able to share the gospel with their peers. The focus of SPT’s is to pray for the sharing of the gospel with non believers.
+            Prayer groups are three to five people who aim to support one another and the wider community through prayer and fellowship. Prayer Groups provide a opportunity for students to actively pray for each other and for other students at Melbourne University. Prayer Groups also function to equip and build up students to be able to share the gospel with their peers. The focus of Prayer Groups is to pray for the sharing of the gospel with non believers.
         <p>
     </div>
     <div class="event-details--camps event-detail"  id = "camps">
@@ -137,7 +137,7 @@
             A weekly event for international students.
         </h1>
         <p class = "event-details__content">
-            At Cross Cultures we meet at 6pm on Thursdays to have dinner, make friends and read the bible together. No matter whether you have had lots of experience reading the bible or none at all, everyone is welcome. It is a wonderful time of meeting other students who are living away from home in a foreign country and to create friendships with them. We meet at St Jude's Anglican Church, 2 Keppel Street, Carlton (just a short walk from Melbourne Uni). 
+            At Cross Cultures we meet at 6pm on Thursdays to have dinner, make friends and read the bible together. No matter whether you have had lots of experience reading the bible or none at all, everyone is welcome. It is a wonderful time of meeting other students who are living away from home in a foreign country and to create friendships with them. We meet at St Jude's Anglican Church, 2 Keppel Street, Carlton (just a short walk from Melbourne Uni).
         <p>
     </div>
 

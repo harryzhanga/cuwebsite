@@ -8,7 +8,7 @@
 <?php startblock('page_content') ?>
     <section class = "cta">
         <div class = "cta__content">
-            <h1 class = "cta__title">Bringing Melbourne Uni's Christian Community Together</h1>
+            <h1 class = "cta__title">A community making Jesus known at Melbourne University</h1>
             <h1 class = "cta__facebook">
                 Meet us on Facebook!
             </h1>
@@ -51,7 +51,7 @@
                 A Christian community on Campus
             </h1>
             <p class = "main-about__text">
-                Christian Union (CU) is a Christian Club at Melbourne University. Each week we hold numerous events ranging from bible studies, prayer groups, Public Bible Talks to casual social events. Anyone and everyone is welcome to come to any of our events. Whether you identify as a Christian, are curious about Christianity or have never thought about it— we would love to chat with you about God or even just about settling into life at University. Check out our events page and give our Facebook page a like to find out when and where each of our events are being held. 
+                Christian Union (CU) is a Christian Club at Melbourne University. Each week we hold numerous events ranging from bible studies, prayer groups, Bible Talks to casual social events. Anyone and everyone is welcome to come to any of our events. Whether you identify as a Christian, are curious about Christianity or have never thought about it— we would love to chat with you about God or even just about settling into life at University. Check out our events page and give our Facebook page a like to find out when and where each of our events are being held.
             </p>
         </div>
         <div class = "main-about__gallery">

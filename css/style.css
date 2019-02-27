@@ -1,11 +1,3 @@
-@keyframes moveUpDown {
-  0% {
-    transform: translate(0, 0); }
-  50% {
-    transform: translate(0, -0.5rem) scale(1.05); }
-  100% {
-    transform: translate(0, 0); } }
-
 *,
 *::after,
 *::before {
@@ -581,8 +573,8 @@ hr {
   .event--forum {
     background-image: url("../events/img/forum.png");
     flex: 0 0 20%; }
-  .event--ball {
-    background-image: url("../events/img/ball.jpg");
+  .event--cc-camp {
+    background-image: url("https://scontent-sjc3-1.xx.fbcdn.net/v/t1.15752-9/52816662_811740749176007_673707066812006400_n.jpg?_nc_cat=107&_nc_ht=scontent-sjc3-1.xx&oh=137ead046b17bc7a604a424155df35c4&oe=5CE942B6");
     flex: 0 0 25%; }
   .event--summit {
     background-image: url("../events/img/summit-2018.jpg");
