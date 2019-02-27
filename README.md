@@ -86,6 +86,6 @@ That's not the actual password obviously.
 Then naviate to `/public_html` and run `git pull`.\
 This should take all those changes you made and put them on the server. You're done! 
 ## Final Notes
-Be careful when you update that the links to the home and other sites still work
+Be careful when you update that the links to the home and other sites still work. There is an issue with the links where you need to find and replace "cuwebsite" in head.php with nothing.
 
 If you have any questions email me at harryzhanga@gmail.com
