@@ -2,16 +2,16 @@
 
 ## Overview
 
-Website URL `http://melbourne.cu.org.au/`
+Website URL `http://melbourne.cu.org.au/`\
 The writer of this README is Harry Zhang. Here is a list of who I know has managed this website.
 
-Jonathan Milford (-2015)
-Matthew Habibi (2015-2016)
-Harry Zhang (2016-)
+Jonathan Milford (-2015)\
+Matthew Habibi (2015-2016)\
+Harry Zhang (2016-)\
 
-This is a static website. This means it doesn't connect to any database and provides the same content always.
-The homepage contents is in `index.php`
-I implemented templating for this website. This means that there is a common header for each website (`head.php`).
+This is a static website. This means it doesn't connect to any database and provides the same content always.\
+The homepage contents is in `index.php`\
+I implemented templating for this website. This means that there is a common header for each website (`head.php`).\
 
 ## Technologies
 We use PHP to create the HTML. The website was PHP when it was handed to me. I could have changed it to just raw HTML but I wanted to have a common header so I kept it.
@@ -28,8 +28,11 @@ I've been hosting the website on GoDaddy using my personal account which I'm hap
 
 
 ## Developing
-### Running the server
-To run the PHP server, I used XAMPP.
+
+### Rendering in the browser locally
+First download XAMPP. I forgot the setup, but I put all my files the in `D:\xampp\htdocs\cuwebsite`.
+
+I can then open up XAMPP and press a START button to start the server. Then I can go to my browser eg Chrome or Safari and use the URL `localhost/cuwebsite` to access it.
 
 ### SCSS Background
 Don't modify the CSS files, you can but I already implemented a nice structure using SASS. In essence, SASS allows you to write CSS in different files (which makes it super easy to organize) and then it compiles all of it into one CSS file in the end.
@@ -55,13 +58,6 @@ npm run start
 ```
 Then just modify your files in your favourite text editor, save, and then it should compile your SASS files into new CSS files. 
 
-
-
-### Rendering in the browser locally
-First download XAMPP. I forgot the setup, but I put all my files the in `D:\xampp\htdocs\cuwebsite`.
-
-I can then open up XAMPP and press a START button to start the server. Then I can go to my browser eg Chrome or Safari and use the URL `localhost/cuwebsite` to access it.
-
 ### Committing
 ```
 git add *
@@ -78,7 +74,7 @@ IP: 148.66.136.120
 Port: 22
 ```
 
-Then click 'open'
+Then click 'open'\
 A window will pop up asking for username and password
 ```
 username : harryzhang
@@ -87,7 +83,7 @@ The password is 1P....
 
 That's not the actual password obviously.
 
-Then naviate to `/public_html` and run `git pull`.
+Then naviate to `/public_html` and run `git pull`.\
 This should take all those changes you made and put them on the server. You're done! 
 ## Final Notes
 Be careful when you update that the links to the home and other sites still work
